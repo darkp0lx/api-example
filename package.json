@@ -1,0 +1,17 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "hector <polbarazorda@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "standard": "^16.0.3"
+  },
+  "eslintConfig": {
+    "extend": "./node_modules/standard/eslintrc.json"
+  }
+}
